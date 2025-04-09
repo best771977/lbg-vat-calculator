@@ -6,7 +6,7 @@ pipeline {
     stage('Checkout') {
         steps {
           // Get some code from a GitHub repository
-          git branch: 'main', url: ''https://github.com/best771977/lbg-vat-calculator.git'E'
+          git branch: 'main', url: 'https://github.com/best771977/lbg-vat-calculator.git'
         }
     }
     stage('Install') {
